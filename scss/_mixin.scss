@@ -1,0 +1,14 @@
+/* font */
+$-noto : 'Noto Sans JP', sans-serif;
+$-dark : #3f434a;
+$-white : #fff;
+
+/* variable */
+$sp : 768px;
+
+/* mixin */
+@mixin sp {
+  @media (max-width:( $sp ) ) {
+    @content
+  }
+}

@@ -1,0 +1,6 @@
+AuthName "test"
+AuthUserFile "/home/yokoyo/yokoyo.html.xdomain.jp/public_html/portfolio/lp_flower/.htpasswd"
+AuthGroupFile /dev/null
+AuthType Basic
+require valid-user
+
